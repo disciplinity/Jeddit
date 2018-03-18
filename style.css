@@ -1,0 +1,153 @@
+
+button {
+	color: white;
+	border: none;
+	padding: 5px;
+	background-color: #d8861a;
+	margin: 3px;
+	margin-left: 5px;
+}
+
+button:hover {
+	background-color: #e53d3d;
+
+}
+
+form {
+	display: inline;
+}
+
+.mainContainer {
+	width: 75%;
+	margin: 0 auto;
+	background-color: #eaeae8;
+
+}
+
+.header {
+	background-color: #e8bb78;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+.auth {
+	padding: 5px;
+	margin: 3px;
+}
+
+.registerForm {
+	margin-top: 10px;
+	padding: 15px;
+}
+
+.postingBlock {
+	margin-top: 15px;
+	padding: 15px;
+}
+
+#postTextField {
+	height: 100px;
+	width: 300px;
+	margin-top: 15px;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	margin-top: 5px;
+	border-spacing:5px;
+	border-collapse: separate;
+}
+
+
+table td a {
+	text-decoration: none;
+	color: #3d3b3b;
+	font-size: 12px;
+	font-family: monospace;
+}
+
+#authorRow {
+	color: #9e9a9a;
+	font-size: 10px;
+}
+
+#upvote {
+	color: green;
+	font-weight: bold;
+	background-color: #eaeae8;
+	height: 0px;
+	width: 0px;
+}
+
+#upvote:focus {
+	outline: none;
+}
+
+#downvote {
+	color: red;
+	font-weight: bold;
+	background-color: #eaeae8;
+	height: 5px;
+	width: 5px;
+}
+
+table .onePost {
+	margin: 15px;
+	padding: 10px;
+}
+
+.postContainer {
+	margin-top: 10px;
+	padding: 15px;
+	border: 1px solid darkgray;
+	border-radius: 5px;
+}
+
+.postContainer .insidePostTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.postContainer .insidePostTitle .insidePostAuthorRow {
+	font-weight: normal;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.insidePostText {
+	font-size: 13px;
+}
+
+
+#textAreaForComments {
+	width: 330px;
+	height: 100px;
+	margin: 10px;
+}
+
+#postCommentButton {
+	margin: 10px;
+}
+
+.singleComment {
+	margin: 10px;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.singleComment #singleCommentTop {
+	font-size: 11px;
+	color: #8c8c91;
+}
+
+.singleComment #singleCommentBot {
+	font-size: 13px;
+	color: #39393a;
+	
+}
+
+
+
